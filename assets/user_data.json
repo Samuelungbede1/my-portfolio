@@ -26,7 +26,7 @@
   ],
   "pastProjects": [{
     "title": "Octamile Partners Application",
-    "description": "An Application that can be used to purchase Motor vehicle Third Party, Comprehensive Insurance, Check Car history, and Also purchase VIN/Chassis report, also with the set reminder feature, dealers can be reminded of when their Comprehensive and Third Party Insurance will expire so that they can renew the policy."
+    "description": "An Application that can be used to purchase Motor vehicle Third Party, Comprehensive Insurance, Check Car history, and Also purchase VIN/Chassis report, also with the set reminder feature, dealers can be reminded of when their Comprehensive and Third Party Insurance will expire so that they can renew the policy.\nTechnologies Used -- Android Studio, minimum SDK 19, Kotlin, Firebase FCM for push notification, CrashLytics, MVVM architecture, navigation component, Google OCR(Optical Character Recognition)"
   },
     {
       "title": "Self-Service Kiosk",

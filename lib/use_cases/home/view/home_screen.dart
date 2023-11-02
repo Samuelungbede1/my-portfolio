@@ -106,21 +106,21 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                                   Row(
                                     children: [
                                       const Icon(Icons.email, size: 20,),
-                                      const SizedBox(width: 5,),
+                                      SizedBox(width: 5,),
                                       Text(appController.userData!.emailAddress),
                                     ],
                                   ),
                                   Row(
                                     children: [
-                                      const Icon(Icons.phone, size: 20,),
-                                      const SizedBox(width: 5,),
+                                      Icon(Icons.phone, size: 20,),
+                                      SizedBox(width: 5,),
                                       Text(appController.userData!.phoneNumber),
                                     ],
                                   ),
                                   Row(
                                     children: [
-                                      const Icon(Icons.location_on_sharp, size: 20,),
-                                      const SizedBox(width: 5,),
+                                      Icon(Icons.location_on_sharp, size: 20,),
+                                      SizedBox(width: 5,),
                                       Text(appController.userData!.houseAddress),
                                     ],
                                   ),
@@ -178,7 +178,7 @@ class _HomeScreenState extends State<HomeScreen> with TickerProviderStateMixin {
                   width: 500,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
-                    itemCount: appController.userData!.certifications.length,
+                    itemCount: appController.userData!.certifications.length, //
                     itemBuilder: (BuildContext context, int index) {
                       return  CertificationItem(
                         imageUrl: appController.userData!.certifications[index].image,

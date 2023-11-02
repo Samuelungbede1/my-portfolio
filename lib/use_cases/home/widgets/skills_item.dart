@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../../../utils/app_color_palette.dart';
+import '../../../utils/base_styles.dart';
 
 class SkillsItem extends StatelessWidget {
   final String text;
@@ -21,6 +22,7 @@ class SkillsItem extends StatelessWidget {
       child: Center(
         child: Text(
           text,
+          style: subtitleText,
         ),
       ),
     );
