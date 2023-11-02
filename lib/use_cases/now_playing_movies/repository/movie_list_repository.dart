@@ -1,0 +1,6 @@
+
+
+class MovieListRepository {
+  getNowPlayingMovies() async{}
+
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Ungbede Samuel",
+  "title": "Mobile Developer",
+  "profilePhoto": "assets/images/samuel.png",
+  "emailAddress": "samuel.onum1@gmail.com",
+  "phoneNumber": "08091185347",
+  "houseAddress": "No 3, Zaria Close Agbara Estate, Ogun State",
+  "aboutMe": "I am a heartfelt mobile developer who loves learning and experimenting with new technologies as they evolve. I am always determined to make a novel contribution as an individual plus I love the sweet feeling of working with a team. Currently, I develop scalable Android applications with Kotlin. Some of my skills are Firebase Database, XML, Git workflow, Python for Data wrangling, Java, JavaScript, and TypeScript for front-end. As an active learner and problem solver, I’m currently working on my react-native skills in order to support and provide solutions for businesses that rely on cross-platform mobile applications to meet the demands of their customers.\n\nFun Fact About me\n\nbyDefaultIChatInCamelCase",
+  "certifications": [
+    {
+    "title": "Google Digital Skills",
+    "image": "assets/images/google.png"
+  },
+    {
+      "title": "Matlab Onramp",
+      "image": "assets/images/matlab.png"
+    },
+    {
+      "title": "Agile-Scrum",
+      "image": "assets/images/scrum.png"
+    },
+    {
+      "title": "IBC-COSMOS",
+      "image": "assets/images/atom.png"
+    }
+  ],
+  "pastProjects": [{
+    "title": "Octamile Partners Application",
+    "description": "An Application that can be used to purchase Motor vehicle Third Party, Comprehensive Insurance, Check Car history, and Also purchase VIN/Chassis report, also with the set reminder feature, dealers can be reminded of when their Comprehensive and Third Party Insurance will expire so that they can renew the policy."
+  },
+    {
+      "title": "Self-Service Kiosk",
+      "description": "The Self-service Kiosk project was written in Flutter and meant for customers to carry out transactions such as bills payment, airtime purchases, and account updates like email and phone number updates."
+    }
+  ,
+    {
+      "title": "Visitors Management System",
+      "description": "The Visitors Management System(VMS) is an application designed for staff to schedule appointments for their visitors and generates invites in form of codes or QR-code, these codes will be tendered at the reception that automatically validates and checks the visitors in or out, and in real-time, the system records vital information such as time stamps, sends a message to the security department in the event of incidents, etc."
+    }
+  ,
+    {
+      "title": "Hotel Voyage",
+      "description": "An application that upon successful user registration, they can book and hotel of their choice, add a hotel to their wish list, and search for a hotel within their geographical location."
+    }
+  ,
+    {
+      "title": "Location Tracker",
+      "description": "An android Application that requests permission to  track the location of a user and displays their real-time location on a map\nTechnologies Used - Kotlin, Android Studio, Google Map API, minimum SDK 19, Firebase."
+    },
+    {
+      "title": "Book Submission Application",
+      "description": "A multiplatform Application for Authors to submit their completed Book to publishers for review.\nTechnologies Used -Flutter, Dart, Firebase cloud Firestore, Firebase cloud function, Firebase Authentication, Gmail SMTP server."
+    },
+    {
+      "title": "Makeup Products Application",
+      "description": "A Nativa Android Application that fetches makeup products from the http://makeup-api.herokuapp.com/api/v1/products.json and this items are sorted based on brands, and product type\n\nTechnologies Used -Coroutines, Android studio, Gradle, Flow Kotlin ,Git/GitHub, GitHub Actions, Glider, Jetpack Library, Retrofit, Jetpack–Lifecycle, ViewModel, ViewBinding, NavigationComponent, Dagger Hilt for dependency injection.\n"
+    }
+  ],
+  "education": [{
+    "schoolName": "Federal University of Agriculture Makurdi",
+    "certificateEarned": "Bachelors Of Engineering",
+    "year": 2019,
+    "grade": "4.46/5.00"
+  },
+    {
+      "schoolName": "Command Day Secondary School Ikeja",
+      "certificateEarned": "SSCE",
+      "year": 2012,
+      "grade": "NA"
+    }
+  ],
+  "skills": [
+    "Kotlin", "Android SDK",
+    "Android Studio", "Gradle", "Coroutine","Java", "Python", "JavaScript",
+    "Flutter", "SQL","Java", "Dart", "Flutter", "REST APIs", "Jetpack Libraries","Rx Dart",
+    "Rx Java", "Rx kotlin", "Live Data", "SQLite","FirebaseAuth", "Firebase", "Firebase Cloud Messaging", "Firebase Cloud Functions",
+    "Email Pub/Sub","NodeMailer", "Proguard/R8", "Payment Integration", "Microsoft Azure", "CI/CD Pipeline","Git and GitHub.", "GitHub Actions", "Jira",
+    "Azure", "Solidity","Type Script", "React Native", "React", "Flutter", "SQL","Java", "Python", "JavaScript",
+    "Flutter", "SQL","Java", "Python", "JavaScript", "Flutter", "SQL"]
+}
