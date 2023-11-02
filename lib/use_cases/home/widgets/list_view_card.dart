@@ -10,10 +10,12 @@ class ListViewCard extends StatefulWidget {
     Key? key,
     required this.imageUrl,
     required this.subtitle,
+    required this.releaseDate,
   }) : super(key: key);
 
   final String imageUrl;
   final String subtitle;
+  final String releaseDate;
 
   @override
   State<ListViewCard> createState() => _ListViewCardState();
@@ -21,12 +23,12 @@ class ListViewCard extends StatefulWidget {
 
 class _ListViewCardState extends State<ListViewCard>
     with TickerProviderStateMixin {
-  
+
 
   @override
   void initState() {
     super.initState();
-    
+
   }
 
   @override
@@ -39,23 +41,35 @@ class _ListViewCardState extends State<ListViewCard>
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 8.0),
       child: Container(
-        width: 150.0.w,
+        // width: 150.0.w,
+        height: 200,
         decoration: BoxDecoration(
           color: AppColorPalette.white,
-          borderRadius: BorderRadius.circular(
-              10.0),
+          borderRadius: BorderRadius.circular(10.0),
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-             SizedBox(height: 3.0.h),
-             CircleAvatar(
-              radius: 30.0,
-              backgroundImage: NetworkImage(widget.imageUrl),
+            SizedBox(height: 3.0.h),
+            Container(
+              height: 130.0.h, // Set your desired height
+              // width: 130.0.w, // Set your desired width
+              decoration: BoxDecoration(
+                shape: BoxShape.rectangle, // Square shape
+                image: DecorationImage(
+                  fit: BoxFit.cover,
+                  image: NetworkImage(widget.imageUrl),
+                ),
+              ),
             ),
             const SizedBox(height: 2.0),
             Text(
               widget.subtitle,
+              style: subtitleText,
+              textAlign: TextAlign.center,
+            ),
+            Text(
+              widget.releaseDate,
               style: subtitleText,
               textAlign: TextAlign.center,
             ),
@@ -64,4 +78,5 @@ class _ListViewCardState extends State<ListViewCard>
       ),
     );
   }
+
 }

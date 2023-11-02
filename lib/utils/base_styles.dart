@@ -10,7 +10,7 @@ const bodyText2 = TextStyle(
     fontWeight: FontWeight.w500, fontSize: 10, color: AppColorPalette.black);
 const bodyText = TextStyle(
     fontWeight: FontWeight.w500, fontSize: 14, color: AppColorPalette.black);
-const subtitleText = TextStyle(fontWeight: FontWeight.w500, fontSize: 14, color: Colors.black45);
+const subtitleText = TextStyle(fontWeight: FontWeight.w500, fontSize: 14, color: AppColorPalette.black);
 const textWithPryColor = TextStyle(fontWeight: FontWeight.w500, fontSize: 15, color: AppColorPalette.primaryColor);
 const bodyTextBig = TextStyle(
     fontWeight: FontWeight.w300, fontSize: 20, color: AppColorPalette.black);

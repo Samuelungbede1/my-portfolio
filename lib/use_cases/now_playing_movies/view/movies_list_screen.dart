@@ -42,10 +42,11 @@ class _MoviesListScreenState extends State<MoviesListScreen> {
               return  ListViewCard(
                 imageUrl:   "$backDrop${movieListController.results[index].backdropPath!}"  ,
                 subtitle: movieListController.results[index].title!,
+                releaseDate: movieListController.results[index].releaseDate!,
               );
             },
             crossAxisCount: 4,
-            staggeredTileBuilder: (int index) => StaggeredTile.count(2,index.isEven? 2 :1),
+            staggeredTileBuilder: (int index) => StaggeredTile.count(2,index.isEven? 3 :2),
             mainAxisSpacing: 10.0, // Adjust spacing as needed
             crossAxisSpacing: 10.0, // Adjust spacing as needed                ),
           ),
