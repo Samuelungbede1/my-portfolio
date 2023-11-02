@@ -24,11 +24,7 @@ class App extends StatelessWidget {
       minTextAdapt: true,
       builder: (BuildContext context, Widget? child) => GestureDetector(
         behavior: HitTestBehavior.translucent,
-        /**
-         * Whenever the app is in use the timeout gets refreshed
-         * */
         onTapDown: (TapDownDetails e) {
-          print("Tapped Down");
           // controller.startTimer();
         },
         child: GetMaterialApp(
